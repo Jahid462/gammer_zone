@@ -31,7 +31,6 @@ li{
 .title_font{
     font-size: 3rem;
     font-weight: 600;
-    margin-bottom: 20px;
 }
 .description_font{
     font-size: 1rem;
@@ -131,7 +130,7 @@ li{
     -webkit-background-clip: text;
     font-size: 6rem;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 .banner_content p{
     margin-bottom: 10px;

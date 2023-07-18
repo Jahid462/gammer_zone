@@ -1,12 +1,11 @@
-@media screen and (min-width: 1025px) and (max-width: 1399px) {
+
+@media screen and (min-width: 1025px) {
     .container{
         width: 95%;
     }
 }
 
-
-
-
+/* -------------------------Desktop or Laptop Devices----------------------- */
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .container{
@@ -18,11 +17,18 @@
     .menu ul .follow{
         gap: 10px;
     }
+    .banner_content h1{
+        font-size: 5rem;
+    }
+    .banner_content h2{
+        font-size: 2rem;
+    }
+
 }
 
 
 
-
+/* ----------------------------Tablet Devices------------------------- */
 
 
 @media screen and (min-width: 597px) and (max-width: 768px) {
@@ -45,12 +51,37 @@
         gap: 10px;
         padding: 15px 8px;
     }
+    .banner_content h1{
+        font-size: 2.8rem;
+    }
+    .banner_content h2{
+        font-size: 1.4rem;
+    }
+    .banner_section{
+        flex-direction: column-reverse;
+        padding: 20px;
+        background-position: right bottom;
+        background-size: contain;
+        background-image: none;
+    }
+    .banner_content{
+        background-image: url("../images/Group_14.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: right;
+        width: 100%;
+    }
+    .banner_content > div{
+        width: fit-content;
+        margin: auto;
+        padding: 80px 0;
+    }
 }
 
 
 
 
-
+/* ----------------------------Mobile Devices------------------------- */
 
 @media screen and (max-width: 596px) {
     .header_content{
@@ -64,25 +95,45 @@
         flex-direction: column;
         height: auto;
     }
+    .menu ul{
+        gap: 20px;
+    }
     .logo{
-        margin: 30px 0;
+        padding: 30px 0 10px;
+    }
+    .btn{
+        font-size: 1rem;
+    }
+    .description_font{
+        font-size: .7rem;
     }
     .banner_section{
         flex-direction: column-reverse;
+        padding: 20px;
+        background-position: right bottom;
+        background-size: contain;
         background-image: none;
-        padding: 30px;
     }
     .banner_content{
         background-image: url("../images/Group_14.png");
         background-repeat: no-repeat;
         background-size: cover;
+        background-position-x: right;
         width: 100%;
     }
+    .banner_content > div{
+        width: fit-content;
+        margin: auto;
+        padding: 80px 0;
+    }
     .banner_content h1{
-        font-size: 4rem;
+        font-size: 2.8rem;
     }
     .banner_content h2{
-        font-size: 2rem;
+        font-size: 1.4rem;
+    }
+    .banner_content .btn_container .second_btn{
+        margin-left: 0;
     }
     
 }
