@@ -313,6 +313,8 @@ li{
     gap: 50px;
     flex-wrap: wrap;
     justify-content: center;
+    width: 80%;
+    margin: auto;
 }
 .all_games_container ul li a img{
     width: 40px;

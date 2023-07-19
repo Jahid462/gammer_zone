@@ -298,6 +298,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px 10px;
+        width: 100%;
     }
     .footer_container ul li a {
         font-size: .7rem;
