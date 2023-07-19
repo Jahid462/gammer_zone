@@ -4,7 +4,7 @@
 :root{
     --title_color: #0B0223;
     --primary_color: #534C64;
-    --hover_color: #e68608;
+    --hover_color: #FF42A5;
 }
 
 /* ------------------Default Styles-------------------- */
@@ -37,7 +37,7 @@ li{
     font-weight: 500;
 }
 .linear_color{
-    background-image: linear-gradient(to bottom, #c16f0f, #e893cf);
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -52,6 +52,10 @@ li{
     border-radius: 25px;
     font-weight: 600;
     cursor: pointer;
+    transition: .6s all ease-in-out;
+}
+.btn:hover{
+    background-color: #4EC5F7;
 }
 
 
@@ -139,6 +143,9 @@ li{
 .banner_content .btn_container .second_btn{
     background-color: #4EC5F7;
     margin-left: 20px;
+}
+.banner_content .btn_container .second_btn:hover{
+    background-color: var(--hover_color);
 }
 
 
@@ -291,17 +298,38 @@ li{
 
 /* --------------------All Games Section---------------------- */
 
-.all_games_container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, auto);
+.all_games_section{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    align-items: center;
+    padding: 150px 0;
 }
-.common{
+.all_games_container ul{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.all_games_container ul li a img{
+    width: 40px;
+}
+.all_games_container ul li{
+    width: 255px;
+    height: 60px;
+}
+.all_games_container ul li a{
     display: flex;
     align-items: center;
     gap: 10px;
+    background-color: #fff;
+    padding: 7px 14px;
+    border-radius: 40px;
+    
 }
-
+.all_games_container ul li a:hover{
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+}
 
 
 /* ------------------------Footer Section----------------------- */
@@ -330,6 +358,9 @@ li{
 }
 .footer_container ul li a{
     color: #fff;
+}
+.footer_container ul li a:hover{
+    color: var(--hover_color);
 }
 .footer_container .terms_section li a, .footer_container > p{
     color: #acacac;
