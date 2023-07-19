@@ -117,7 +117,7 @@ li{
     background-image: url("../images/Group_14.png");
     background-repeat: no-repeat;
     background-position: calc(-40%);
-    padding: 0 50px;
+    padding: 0 80px;
 }
 .banner_content .banner_img{
     width: 50%;
@@ -214,7 +214,7 @@ li{
 .play_instant_content, .play_instant_img{
     width: 50%;
 }
-.play_instant_content h1, p{
+.play_instant_content h1, .play_instant_content p{
     width: 350px;
     margin: auto;
     text-align: right;
@@ -241,11 +241,103 @@ li{
 .play_online_container{
     flex-direction: row-reverse;
 }
-.play_online_content h1, p{
+.play_online_content h1, .play_online_content p{
     text-align: left;
 }
 .overflow_img2{
     position: absolute;
     bottom: -70px;
     right: -150px;
+}
+
+
+
+/* -------------------------Careers Section------------------------ */
+
+.careers_section{
+    background-color: #FF42A5;
+    padding: 50px;
+}
+.careers_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    color: #fff;
+}
+.careers_contant, .careers_img{
+    width: 50%;
+}
+.location_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.careers_contant > p{
+    margin: 40px 0;
+    font-size: .9rem;
+}
+.occupation p{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.careers_contant > .btn{
+    background-color: #fff;
+    color: #FF42A5;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+
+/* --------------------All Games Section---------------------- */
+
+.all_games_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+.common{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+/* ------------------------Footer Section----------------------- */
+
+#footer{
+    background-color: #0B0223;
+    color: #fff;
+    padding: 100px 0;
+}
+.footer_container{
+    text-align: center;
+}
+._footer_logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.footer_container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.footer_container ul li a{
+    color: #fff;
+}
+.footer_container .terms_section li a, .footer_container > p{
+    color: #acacac;
+}
+.footer_container > p{
+    margin-top: 20px;
+    font-size: .9rem;
+}
+.terms_section li a{
+    font-size: .9rem;
 }

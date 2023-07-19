@@ -1,7 +1,7 @@
 
 @media screen and (min-width: 1025px) {
     .container{
-        width: 1400px;
+        width: 90%;
     }
 }
 
@@ -29,7 +29,7 @@
     .gamer_img, .gamer_content{
         width: 50%;
     }
-    .play_instant_content h1, p{
+    .play_instant_content h1, .play_instant_content p{
         width: 100%;
         text-align: right;
     }
@@ -47,6 +47,19 @@
     .play_online_img .overflow_img2{
         width: 50%;
         right: -80px;
+    }
+    .careers_section{
+        padding: 40px 10px;
+    }
+    .careers_container{
+        gap: 0;
+    }
+    .careers_contant{
+        width: 65%;
+        gap: 0;
+    }
+    .careers_img{
+        width: 35%;
     }
 
 }
@@ -124,7 +137,7 @@
         width: 60%;
         margin-top: 40px;
     }
-    .play_instant_content h1, p{
+    .play_instant_content h1, .play_instant_content p{
         width: 100%;
         text-align: center;
     }
@@ -135,6 +148,7 @@
     }
     .online_section{
         margin-bottom: 20px;
+        margin-top: 20px;
     }
     .play_online_section{
         margin: 40px 0;
@@ -143,6 +157,12 @@
         bottom: -30px;
         right: -100px;
         width: 50%;
+    }
+    .careers_container{
+        flex-direction: column;
+    }
+    .careers_contant, .careers_img{
+        width: 100%;
     }
     
 }
@@ -233,7 +253,7 @@
         width: 60%;
         margin-top: 40px;
     }
-    .play_instant_content h1, p{
+    .play_instant_content h1, .play_instant_content p{
         width: 100%;
         text-align: center;
     }
@@ -247,6 +267,7 @@
     }
     .online_section{
         margin-bottom: 20px;
+        margin-top: 20px;
     }
     .play_online_section{
         margin: 40px 0;
@@ -256,4 +277,24 @@
         right: -50px;
         width: 50%;
     }
+    .careers_section{
+        padding: 40px 20px;
+    }
+    .careers_container{
+        flex-direction: column;
+    }
+    .careers_contant, .careers_img{
+        width: 100%;
+    }
+    .occupation > p{
+        font-weight: 500;
+        font-size: .7rem;
+    }
+    .careers_contant > .btn{
+        font-size: .9rem;
+    }
+    .footer_container ul li a {
+        font-size: .9rem;
+      }
+
 }
