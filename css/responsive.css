@@ -88,6 +88,13 @@
     .gamer_content{
         text-align: center;
     }
+    .card_container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .single_card{
+        width: 90%;
+    }
 }
 
 
@@ -159,5 +166,14 @@
     .gamer_content h1{
         font-size: 2.3rem;
     }
-    
+    .online_section_title h1{
+        font-size: 1.7rem;
+    }
+    .card_container{
+        flex-direction: column;
+    }
+    .single_card{
+        width: 90%;
+        text-align: center;
+    }
 }
