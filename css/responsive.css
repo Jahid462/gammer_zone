@@ -39,10 +39,14 @@
     }
     .play_instant_img .overflow_img{
         width: 50%;
-        left: -110px;
+        left: -80px;
     }
     .play_instant_content h1{
         font-size: 1.5rem;
+    }
+    .play_online_img .overflow_img2{
+        width: 50%;
+        right: -80px;
     }
 
 }
@@ -127,6 +131,17 @@
     .play_instant_img .overflow_img {
         bottom: -30px;
         left: -100px;
+        width: 50%;
+    }
+    .online_section{
+        margin-bottom: 20px;
+    }
+    .play_online_section{
+        margin: 40px 0;
+    }
+    .play_online_img .overflow_img2 {
+        bottom: -30px;
+        right: -100px;
         width: 50%;
     }
     
@@ -238,7 +253,7 @@
     }
     .play_online_img .overflow_img2 {
         bottom: -30px;
-        left: -50px;
+        right: -50px;
         width: 50%;
     }
 }
