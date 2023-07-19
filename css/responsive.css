@@ -294,7 +294,22 @@
         font-size: .9rem;
     }
     .footer_container ul li a {
-        font-size: .9rem;
+        font-size: .7rem;
       }
+    .footer_container .social_btn{
+        width: 60%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .footer_container .about_us{
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .footer_container .terms_section{
+        width: 86%;
+        margin: auto;
+        margin-top: 50px;
+    }
 
 }

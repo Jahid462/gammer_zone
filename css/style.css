@@ -349,7 +349,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 20px 50px;
     flex-wrap: wrap;
     margin-top: 50px;
 }
@@ -363,8 +363,8 @@ li{
     color: #acacac;
 }
 .footer_container > p{
-    margin-top: 20px;
-    font-size: .9rem;
+    margin-top: 80px;
+    font-size: .7rem;
 }
 .terms_section li a{
     font-size: .9rem;
@@ -385,7 +385,7 @@ li{
     width: 99%;
     height: 98%;
     opacity: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #00000080;
     transition: opacity 0.3s ease;
     border-radius: 11px;
     border: 3px solid #F948B2;
