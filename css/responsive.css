@@ -164,7 +164,11 @@
     .careers_contant, .careers_img{
         width: 100%;
     }
-    
+    .all_games_container ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px 10px;
+    }
 }
 
 
@@ -293,6 +297,19 @@
     .careers_contant > .btn{
         font-size: .9rem;
     }
+
+    .all_games_container ul li a img{
+        width: 25px;
+    }
+    .all_games_container ul li a{
+        font-size: .4rem;
+    }
+    .all_games_container ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px 10px;
+    }
+
     .footer_container ul li a {
         font-size: .7rem;
       }
