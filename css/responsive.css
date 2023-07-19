@@ -302,7 +302,9 @@
         width: 25px;
     }
     .all_games_container ul li a{
-        font-size: .4rem;
+        font-size: .6rem;
+        gap: 5px;
+        padding: 0;
     }
     .all_games_container ul{
         display: grid;
