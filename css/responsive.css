@@ -1,7 +1,7 @@
 
 @media screen and (min-width: 1025px) {
     .container{
-        width: 95%;
+        width: 1400px;
     }
 }
 
@@ -23,8 +23,26 @@
     .banner_content h2{
         font-size: 2rem;
     }
+    .play_instant_container{
+        gap: 20%;
+    }
     .gamer_img, .gamer_content{
         width: 50%;
+    }
+    .play_instant_content h1, p{
+        width: 100%;
+        text-align: right;
+    }
+    .single_card{
+        width: 22%;
+        overflow: hidden;
+    }
+    .play_instant_img .overflow_img{
+        width: 50%;
+        left: -110px;
+    }
+    .play_instant_content h1{
+        font-size: 1.5rem;
     }
 
 }
@@ -95,6 +113,23 @@
     .single_card{
         width: 90%;
     }
+    .play_instant_container{
+        flex-direction: column;
+    }
+    .play_instant_content, .play_instant_img{
+        width: 60%;
+        margin-top: 40px;
+    }
+    .play_instant_content h1, p{
+        width: 100%;
+        text-align: center;
+    }
+    .play_instant_img .overflow_img {
+        bottom: -30px;
+        left: -100px;
+        width: 50%;
+    }
+    
 }
 
 
@@ -175,5 +210,35 @@
     .single_card{
         width: 90%;
         text-align: center;
+    }
+    .play_instant_container{
+        flex-direction: column;
+    }
+    .play_instant_content, .play_instant_img{
+        width: 60%;
+        margin-top: 40px;
+    }
+    .play_instant_content h1, p{
+        width: 100%;
+        text-align: center;
+    }
+    .play_instant_content h1{
+        font-size: 1.7rem;
+    }
+    .play_instant_img .overflow_img {
+        bottom: -30px;
+        left: -50px;
+        width: 50%;
+    }
+    .online_section{
+        margin-bottom: 20px;
+    }
+    .play_online_section{
+        margin: 40px 0;
+    }
+    .play_online_img .overflow_img2 {
+        bottom: -30px;
+        left: -50px;
+        width: 50%;
     }
 }
