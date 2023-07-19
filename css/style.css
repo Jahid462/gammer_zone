@@ -33,7 +33,7 @@ li{
     font-weight: 600;
 }
 .description_font{
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 500;
 }
 .linear_color{
@@ -135,7 +135,10 @@ li{
     margin: 20px 0;
 }
 .banner_content p{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+.banner_content p i{
+    padding-right: 10px;
 }
 .banner_content .btn_container{
     margin-top: 30px;

@@ -130,7 +130,7 @@
     .single_card{
         width: 90%;
     }
-    .play_instant_container{
+    .play_instant_container, .careers_container{
         flex-direction: column;
     }
     .play_instant_content, .play_instant_img{
@@ -158,9 +158,6 @@
         right: -100px;
         width: 50%;
     }
-    .careers_container{
-        flex-direction: column;
-    }
     .careers_contant, .careers_img{
         width: 100%;
     }
@@ -170,8 +167,6 @@
         gap: 20px 10px;
     }
 }
-
-
 
 
 /* ----------------------------Mobile Devices------------------------- */
@@ -228,7 +223,7 @@
     .banner_content .btn_container .second_btn{
         margin-left: 0;
     }
-    .gamer_section_container{
+    .gamer_section_container, .card_container, .play_instant_container, .careers_container{
         flex-direction: column;
     }
     .gamer_img, .gamer_content{
@@ -240,18 +235,12 @@
     .gamer_content h1{
         font-size: 2.3rem;
     }
-    .online_section_title h1{
+    .online_section_title h1, .play_instant_content h1{
         font-size: 1.7rem;
-    }
-    .card_container{
-        flex-direction: column;
     }
     .single_card{
         width: 90%;
         text-align: center;
-    }
-    .play_instant_container{
-        flex-direction: column;
     }
     .play_instant_content, .play_instant_img{
         width: 60%;
@@ -260,9 +249,6 @@
     .play_instant_content h1, .play_instant_content p{
         width: 100%;
         text-align: center;
-    }
-    .play_instant_content h1{
-        font-size: 1.7rem;
     }
     .play_instant_img .overflow_img {
         bottom: -30px;
@@ -284,9 +270,6 @@
     .careers_section{
         padding: 40px 20px;
     }
-    .careers_container{
-        flex-direction: column;
-    }
     .careers_contant, .careers_img{
         width: 100%;
     }
@@ -297,12 +280,14 @@
     .careers_contant > .btn{
         font-size: .9rem;
     }
-
+    .all_games_section{
+        padding: 80px 0;
+    }
     .all_games_container ul li a img{
         width: 25px;
     }
     .all_games_container ul li a{
-        font-size: .6rem;
+        font-size: .8rem;
         gap: 5px;
         padding: 0;
     }
@@ -311,7 +296,6 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 20px 10px;
     }
-
     .footer_container ul li a {
         font-size: .7rem;
       }
